@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>intro Javascript</title>
 </head>
 <body>
-    
+    <div id="cool-div">
+
+    </div>
+    <script>
+       // alert('hello world');
+
+       let name = prompt('Wat is je naam?');
+       console.log (name);
+
+       let divText = 'Je naam is ' + name;
+
+       document.getElementById('cool-div').innerHTML = divText; // html
+       document.getElementById('cool-div').textContent= divText; // string
+       let coolDiv = document.getElementById('cool-div');
+       coolDiv.innerHTML = divText; 
+
+       var var1 = 1;
+       let var2 = 2;
+       const var3 = 3;
+
+       let aNumber = 1.4;
+       let anotherNumber = 1;
+       let aString = 'lol';
+       let boolean = true;
+       let anotherBoolean = false;
+       let aNullValue = null;
+       let aNotaNumber = NaN;
+        
+    </script>
 </body>
 </html>
