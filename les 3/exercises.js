@@ -70,8 +70,8 @@ let aNumber = 2342
 function numberToDigitArray(aNumber) {
     let anArray = new Array();
     anArray = aNumber.split()
-    for (i = 0; i < anArray.length; i++){
-        anArray.push
+    for (i = 0; i < aNumber.length; i++){
+        anArray.push(anArray[i])
     }
 }
 
